@@ -17,8 +17,8 @@ This project analyzes the Panel Study of Income Dynamics dataset (USA 1980-81) t
 
 
 **Key Findings:**
-There was a significant difference in hourly wages between males and females in the PSID dataset, with males earning significantly more than females.    
-There was no significant difference in hourly wages between 1980 and 1981 for the same individuals.  
-Education and experience had statistically significant positive effects on wages in the PSID_14 dataset.    
-The number of weeks worked did not have a statistically significant effect on wages.    
-Occupation type had a significant effect on wages, with certain occupations earning significantly more than others.  
+1. There was a significant difference in hourly wages between males and females in the PSID dataset, with males earning significantly more than females.    
+2. There was no significant difference in hourly wages between 1980 and 1981 for the same individuals.  
+3. Education and experience had statistically significant positive effects on wages in the PSID_14 dataset.    
+4. The number of weeks worked did not have a statistically significant effect on wages.    
+5. Occupation type had a significant effect on wages, with certain occupations earning significantly more than others.  
