@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350">
+  <!-- Background -->
+  <rect width="600" height="350" fill="white"/>
+  
+  <!-- Grid lines -->
+  <g stroke="#EEEEEE" stroke-width="1">
+    <line x1="50" y1="50" x2="50" y2="300"/>
+    <line x1="50" y1="300" x2="550" y2="300"/>
+    <!-- Vertical grid lines -->
+    <line x1="150" y1="50" x2="150" y2="300"/>
+    <line x1="250" y1="50" x2="250" y2="300"/>
+    <line x1="350" y1="50" x2="350" y2="300"/>
+    <line x1="450" y1="50" x2="450" y2="300"/>
+    <line x1="550" y1="50" x2="550" y2="300"/>
+    <!-- Horizontal grid lines -->
+    <line x1="50" y1="50" x2="550" y2="50"/>
+    <line x1="50" y1="100" x2="550" y2="100"/>
+    <line x1="50" y1="150" x2="550" y2="150"/>
+    <line x1="50" y1="200" x2="550" y2="200"/>
+    <line x1="50" y1="250" x2="550" y2="250"/>
+  </g>
+  
+  <!-- Axes -->
+  <line x1="50" y1="300" x2="550" y2="300" stroke="#000000" stroke-width="2"/>
+  <line x1="50" y1="50" x2="50" y2="300" stroke="#000000" stroke-width="2"/>
+  
+  <!-- Regression line -->
+  <line x1="50" y1="250" x2="550" y2="100" stroke="#FF6600" stroke-width="2"/>
+  
+  <!-- Data points -->
+  <g fill="#3366CC" stroke="#000000" stroke-width="1">
+    <!-- Randomly placed points with general downward trend -->
+    <circle cx="80" cy="240" r="4"/>
+    <circle cx="100" cy="260" r="4"/>
+    <circle cx="130" cy="220" r="4"/>
+    <circle cx="150" cy="230" r="4"/>
+    <circle cx="180" cy="210" r="4"/>
+    <circle cx="200" cy="200" r="4"/>
+    <circle cx="220" cy="220" r="4"/>
+    <circle cx="250" cy="190" r="4"/>
+    <circle cx="280" cy="180" r="4"/>
+    <circle cx="300" cy="160" r="4"/>
+    <circle cx="320" cy="200" r="4"/>
+    <circle cx="350" cy="170" r="4"/>
+    <circle cx="370" cy="150" r="4"/>
+    <circle cx="400" cy="140" r="4"/>
+    <circle cx="420" cy="160" r="4"/>
+    <circle cx="450" cy="130" r="4"/>
+    <circle cx="480" cy="120" r="4"/>
+    <circle cx="500" cy="110" r="4"/>
+    <circle cx="520" cy="130" r="4"/>
+  </g>
+  
+  <!-- Axes labels -->
+  <text x="300" y="330" text-anchor="middle" font-family="Arial" font-size="14">Predictor Variables (Weeks, Experience, Education)</text>
+  <text x="20" y="175" text-anchor="middle" font-family="Arial" font-size="14" transform="rotate(-90 20 175)">log(Wage)</text>
+  
+  <!-- Title -->
+  <text x="300" y="30" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">Natural Log Regression of Wage</text>
+  
+  <!-- Legend -->
+  <rect x="400" y="60" width="120" height="50" fill="white" stroke="#000000" stroke-width="1"/>
+  <circle cx="420" cy="75" r="4" fill="#3366CC" stroke="#000000" stroke-width="1"/>
+  <text x="435" y="80" font-family="Arial" font-size="12">Data points</text>
+  <line x1="410" y1="95" x2="430" y2="95" stroke="#FF6600" stroke-width="2"/>
+  <text x="445" y="100" font-family="Arial" font-size="12">Regression line</text>
+</svg>

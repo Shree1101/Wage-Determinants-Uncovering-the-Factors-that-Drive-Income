@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350">
+  <!-- Background and grid -->
+  <rect width="600" height="350" fill="white"/>
+  <g stroke="#EEEEEE" stroke-width="1">
+    <line x1="50" y1="50" x2="50" y2="300" stroke="#888888"/>
+    <line x1="50" y1="300" x2="550" y2="300" stroke="#888888"/>
+    <!-- Vertical grid lines -->
+    <line x1="150" y1="50" x2="150" y2="300" />
+    <line x1="250" y1="50" x2="250" y2="300" />
+    <line x1="350" y1="50" x2="350" y2="300" />
+    <line x1="450" y1="50" x2="450" y2="300" />
+    <line x1="550" y1="50" x2="550" y2="300" />
+    <!-- Horizontal grid lines -->
+    <line x1="50" y1="50" x2="550" y2="50" />
+    <line x1="50" y1="100" x2="550" y2="100" />
+    <line x1="50" y1="150" x2="550" y2="150" />
+    <line x1="50" y1="200" x2="550" y2="200" />
+    <line x1="50" y1="250" x2="550" y2="250" />
+  </g>
+
+  <!-- Normal distribution curve -->
+  <path d="M50,300 
+           C150,300 150,70 300,70
+           S450,300 550,300" 
+        fill="none" stroke="#3366CC" stroke-width="2"/>
+  
+  <!-- Vertical line for t-value -->
+  <line x1="280" y1="70" x2="280" y2="300" stroke="#FF6600" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Axes labels -->
+  <text x="300" y="330" text-anchor="middle" font-family="Arial" font-size="14">t-value</text>
+  <text x="30" y="175" text-anchor="middle" font-family="Arial" font-size="14" transform="rotate(-90 30 175)">Density</text>
+  
+  <!-- Distribution markers -->
+  <text x="50" y="320" text-anchor="middle" font-family="Arial" font-size="12">-3</text>
+  <text x="150" y="320" text-anchor="middle" font-family="Arial" font-size="12">-2</text>
+  <text x="250" y="320" text-anchor="middle" font-family="Arial" font-size="12">-1</text>
+  <text x="280" y="320" text-anchor="middle" font-family="Arial" font-size="12">-0.49</text>
+  <text x="350" y="320" text-anchor="middle" font-family="Arial" font-size="12">0</text>
+  <text x="450" y="320" text-anchor="middle" font-family="Arial" font-size="12">1</text>
+  <text x="550" y="320" text-anchor="middle" font-family="Arial" font-size="12">2</text>
+  
+  <!-- Title -->
+  <text x="300" y="30" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">Normal Distribution Plot for Wage Difference (1980-1981)</text>
+  
+  <!-- Annotation -->
+  <text x="230" y="100" text-anchor="middle" font-family="Arial" font-size="12" fill="#FF6600">t = -0.4946</text>
+  <text x="230" y="120" text-anchor="middle" font-family="Arial" font-size="12" fill="#FF6600">p = 0.6245</text>
+  <text x="230" y="140" text-anchor="middle" font-family="Arial" font-size="12" fill="#FF6600">Mean diff = -0.3509</text>
+</svg>
